@@ -2,7 +2,7 @@
 
 ##  Powered by **[NEXT.js](https://nextjs.org/)**
 
-### 데모 [c19statistics.vercel.app](https://c19statistics.vercel.app/)
+### 데모 [c19statistics.vercel.app](https://c19.vercel.app/)
 
 ---
 

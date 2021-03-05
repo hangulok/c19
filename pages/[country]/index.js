@@ -11,7 +11,7 @@ const CountryPage = ({ data, prevCountry, nextCountry }) => {
   return (
     <>
       <Head>
-        <title>{country} Statistics for COVID-19 Cases</title>
+        <title>{country} COVID-19 사례 통계</title>
         <meta
           name="keywords"
           content={`${country}, history, summary, average, cases, covid19, daily, covid-19, global, statistics, confirmed, deaths, recovered, population, timeline`}
