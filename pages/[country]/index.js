@@ -19,7 +19,7 @@ const CountryPage = ({ data, prevCountry, nextCountry }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="canonical"
-          href={`https://c19statistics.vercel.app/${country}`}
+          href={`https://c19.vercel.app/${country}`}
         />
       </Head>
       <Layout>
