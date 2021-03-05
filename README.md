@@ -17,7 +17,7 @@
 소스: [JHU MongoDB Atlas](https://developer.mongodb.com/article/johns-hopkins-university-covid-19-data-atlas/)
 
 - 192 개국
-- 2020-01-22부터
+- 2020-01-22부터 
 - 확진자 _(Total & Daily)_
 - 사망자 _(Total & Daily)_
 - 완치자 _(Total & Daily)_
