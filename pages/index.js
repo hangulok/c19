@@ -7,7 +7,7 @@ export default function HomePage({ data, countries, date }) {
   return (
     <>
       <Head>
-        <title>Summary Statistics for COVID-19 Cases</title>
+        <title>COVID-19 사례에 대한 요약 통계</title>
         <meta
           name="keywords"
           content="covid-19, global, statistics, confirmed, deaths, recovered, population, summary, total"

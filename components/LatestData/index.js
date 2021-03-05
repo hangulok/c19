@@ -37,7 +37,7 @@ const DataHeader = ({ date, length }) => (
       Select a <b>country</b> to see its timeline
     </Typography>
     <Typography variant="body2" component="span">
-      Note: You can sort the data by clicking on the column headers
+      참고 : 열 머리글을 클릭하여 데이터를 정렬 할 수 있습니다.
     </Typography>
   </Box>
 );

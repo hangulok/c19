@@ -8,7 +8,7 @@ const LatestPage = ({ data, date }) => {
   return (
     <>
       <Head>
-        <title>Latest Statistics for COVID-19 Cases</title>
+        <title>COVID-19 사례에 대한 최신 통계</title>
         <meta
           name="keywords"
           content="covid-19, global, statistics, confirmed, deaths, recovered, population, latest, daily, average"

@@ -44,7 +44,7 @@ const Navbar = () => {
       <Toolbar className={classes.root} component={Paper}>
         <Typography variant="h5" component="h1" className={classes.title}>
           <b>COVID19</b>
-          <span style={{ fontSize: ".6em" }}>Statistics</span>
+          <span style={{ fontSize: ".6em" }}>통계</span>
         </Typography>
         {themeName === "light" ? <SunIcon /> : <MoonIcon />}
         <Tooltip title="Toggle Light or Dark Mode" arrow>
@@ -87,23 +87,23 @@ const ExtraNavbar = () => {
       color="text.primary"
     >
       <Typography variant="body2" component="span">
-        <small>By </small>
+        <small> </small>
         <b>
-          <Tooltip title="View my GitHub Profile" arrow>
+          <Tooltip title="GitHub 보기" arrow>
             <MuiLink
-              href="https://github.com/jp-ong"
+              href="https://github.com/hangulok/c19"
               target="_blank"
               rel="noopener noreferrer"
               color="inherit"
             >
-              John Paul Ong
+              GitHub 보기
             </MuiLink>
           </Tooltip>
         </b>
       </Typography>
       <Typography variant="body2" component="span">
-        <small>Source </small>
-        <Tooltip title="Source of COVID19 Data" arrow>
+        <small>소스 </small>
+        <Tooltip title="COVID19 Data 소스" arrow>
           <MuiLink
             href="https://developer.mongodb.com/article/johns-hopkins-university-covid-19-data-atlas/"
             target="_blank"
@@ -115,7 +115,7 @@ const ExtraNavbar = () => {
         </Tooltip>
       </Typography>
       <Typography variant="body2" component="span">
-        <small>Date </small>
+        <small>날짜 </small>
         <b>{time.toLocaleString()}</b>
       </Typography>
     </Box>
